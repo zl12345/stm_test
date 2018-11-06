@@ -1,0 +1,21 @@
+--create BASIC_TIM\BASIC_TIM.lib
+basic_tim\startup_stm32f103xe.o
+basic_tim\myhardware.o
+basic_tim\main.o
+basic_tim\gpio.o
+basic_tim\tim.o
+basic_tim\stm32f1xx_it.o
+basic_tim\stm32f1xx_hal_msp.o
+basic_tim\stm32f1xx_hal_gpio_ex.o
+basic_tim\stm32f1xx_hal_tim.o
+basic_tim\stm32f1xx_hal_tim_ex.o
+basic_tim\stm32f1xx_hal.o
+basic_tim\stm32f1xx_hal_rcc.o
+basic_tim\stm32f1xx_hal_rcc_ex.o
+basic_tim\stm32f1xx_hal_gpio.o
+basic_tim\stm32f1xx_hal_dma.o
+basic_tim\stm32f1xx_hal_cortex.o
+basic_tim\stm32f1xx_hal_pwr.o
+basic_tim\stm32f1xx_hal_flash.o
+basic_tim\stm32f1xx_hal_flash_ex.o
+basic_tim\system_stm32f1xx.o

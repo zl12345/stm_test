@@ -1,0 +1,28 @@
+#include "myhardware.h"
+
+
+
+
+
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+{
+		
+	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_5, GPIO_PIN_RESET);
+		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0|GPIO_PIN_1,GPIO_PIN_SET);  //ºìÉ«
+
+
+
+}
+
+
+
+ void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
+{
+		
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_5, GPIO_PIN_RESET);
+		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_SET);  //À¶É«
+
+
+}
+
+
